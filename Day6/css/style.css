@@ -1,0 +1,248 @@
+
+
+header{
+	/*background-color: #1e1e1e;*/
+}
+#logo{
+		background: url(../images/logo.png) no-repeat;
+		display: block;
+		margin-bottom: -80px;
+		height: 100px;
+		text-indent: -20000px;
+}
+
+#login{
+	float: right;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+.login{
+	padding: 3px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+body{
+	background-color: #f8f8f8;
+	background: url(../images/2013-heel.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 400px;
+}
+
+#wrap{
+	/*background: url(../images/2013.png) no-repeat;*/
+}
+
+/*#cta img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}*/
+
+#cta{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 700;
+    background-color: rgba(255,255,255,.5);
+    height: 300px;
+}
+#cta h1{
+	font-family: verdana, helevetica, serif;
+	/*font-size:30px;*/
+	/*margin-left: 525px;*/
+	/*margin-top: -285px;*/
+	color: #2e2e2e;
+	text-align: center;
+}
+#signup{
+	background-color: #fd49b4;
+	border-radius: 5px;
+	width: 215px;
+	height: 35px;
+	color: #fff;
+	font-family: verdana, helevetica, serif;
+	font-weight: bold;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	line-height: 2;
+}
+#signup_description{
+	font-family: verdana, helevetica, serif;
+	font-weight: bold;
+	/*margin-left: 295px;*/
+	color: #2e2e2e;
+	text-align: center;
+	line-height: 200%;
+}
+
+nav{
+margin: 0;
+padding: 0;
+width: 100%;
+background-color: #2e2e2e;
+}
+
+nav ul li{
+	display: inline-block;
+	text-align: center;
+	width: 19.745%;
+	margin-top: 10px;
+	height: 30px;
+	}
+
+nav ul{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+nav a{
+display: block;
+width: 100%;
+height: 49px;
+text-decoration: none;
+color: #fff;
+font-family: Arial, helevetica, serif;
+/* padding: 0 80px 0 0; */
+}
+
+
+footer{
+	background-color: #2e2e2e;
+	margin-top: 145px;
+	color: #fff;
+}
+
+#copyright{
+	font-size: 18px;
+	font-family: Arial, helevetica, serif;
+	text-align: center;
+}
+
+#fb{
+
+}
+#twitter{
+
+}
+
+#social img{
+	max-width: 100%;
+
+}
+
+.form_dec{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+	background-color: rgba(255,255,255,0.5);
+	font-family: verdana;
+	width: 450px;
+	height: 300px;
+	border-radius: 20px;
+	color: #2e2e2e;
+}
+
+fieldset{
+	border: none;
+}
+
+.form_input{
+	overflow: hidden;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.form_input span{
+	float: left;
+}
+.form_input input{
+	float: left;
+}
+
+#login_button{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 1px 14px;
+	background: -moz-linear-gradient(
+		top,
+		#fd49b5 0%,
+		#fd49b5);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#fd49b5),
+		to(#fd49b5));
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 3px solid #fd49b5;
+	-moz-box-shadow:
+		0px 0px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(253,73,181,1);
+	-webkit-box-shadow:
+		0px 0px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(253,73,181,1);
+	box-shadow:
+		0px 0px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(253,73,181,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}
+
+.button{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 5px 14px;
+	background: -moz-linear-gradient(
+		top,
+		#fd49b5 0%,
+		#fd49b5);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#fd49b5),
+		to(#fd49b5));
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 3px solid #fd49b5;
+	-moz-box-shadow:
+		0px 0px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(253,73,181,1);
+	-webkit-box-shadow:
+		0px 0px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(253,73,181,1);
+	box-shadow:
+		0px 0px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(253,73,181,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+		margin-top: 120px;
+		margin-left: 350px;
+}
+
+
+/*footer ul li{
+	display: inline-block;
+	text-align: center;
+	width: 19%;
+	margin-top: 20px;
+}*/
+/*footer a{
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial, helevetica, serif;
+}*/
